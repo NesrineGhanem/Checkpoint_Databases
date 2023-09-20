@@ -1,0 +1,66 @@
+************Présente MySQL et MongoDB ************************
+
+
+MySQL et MongoDB sont deux des fournisseurs de bases de données 
+les plus appréciés et les plus compétitifs pour les applications en ligne.
+Bien qu’ils fonctionnent tous deux comme des systèmes de gestion de bases de
+données (SGBD), qui vous permettent de collecter des données à partir d’un site
+Web ou d’une application et de fournir des rapports, ils ne sont pas identiques. 
+MySQL est un système obsolète structuré en tables, tandis que MongoDB est 
+un système basé sur des documents.
+
+MongoDB est une application de base de données open source multiplateforme 
+orientée document et librement accessible. En tant que base de données NoSQL ,
+MongoDB utilise des documents sans schéma ressemblant à JSON pour la représentation
+des données. Il offre un cadre robuste pour le stockage et la récupération
+des données, offrant une approche flexible et évolutive de la gestion des bases 
+de données.
+
+SQL est un système de gestion de base de données relationnelle est SQL Server 
+(SGBDR). Il est également parfois appelé Microsoft SQL Server ou MSSQL.
+Microsoft a créé SQL Server, qui a été mis à disposition pour la première fois 
+le 24 avril 1989.
+Les données sont organisées en lignes et colonnes dans des tableaux. 
+Chaque ligne du tableau représente une entrée ou un enregistrement,
+tandis que chaque colonne représente un certain champ ou fonctionnalité.
+Les éditions suivantes de Microsoft SQL Server sont disponibles, chacune avec
+un ensemble différent de fonctionnalités : Express, Enterprise, Standard, 
+Web et Developer.
+L'édition Express est un logiciel gratuit pour les applications modestes et 
+d'entrée de gamme, mais d'autres éditions, basées sur une licence et utilisées
+pour des projets plus importants à des niveaux commerciaux en fonction du service 
+requis, ne sont disponibles qu'avec un abonnement payant.
+
+
+
+
+**************Différence entre MongoDB et SQL*************
+
+
+- MongoDB est un système de gestion de bases de données non relationnelles basé sur
+  des documents.
+  Un autre nom pour cela est un système basé sur les objets.
+  le SQL Un système basé sur des tables est MySQL (ou base de données relationnelle open
+  source). L'architecture basée sur des tables, considérée comme une base
+  de données SQL, constitue la structure de requête de données pour la recherche.
+	
+
+-Chaque enregistrement dans MongoDB est conservé comme un document distinct.
+ pour SQL Chaque entrée individuelle est enregistrée sous forme de « ligne » dans 
+ une base de données MySQL.
+	
+-dans MongoDB les documents d'une classe ou d'un groupe spécifique sont conservés 
+dans une « collection » mais a SQL Les lignes (également appelées enregistrements) 
+de même type sont conservées dans une « table ».
+	
+-MongoDB prend en charge la réplication et le partitionnement prêts à l'emploi et 
+ a été conçu dans un souci de haute disponibilité et d'évolutivité.	
+ Bien que l'architecture MySQL ne prenne pas en charge une réplication et 
+ un partitionnement efficaces, on peut accéder aux données associées via 
+ des jointures dans MySQL, ce qui réduit la duplication.
+
+ 
+
+
+
+
